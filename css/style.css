@@ -1,5 +1,10 @@
 @charset "utf-8";
 
+@font-face {
+    font-family: 'RictyDiminishedBold';
+    src: url('../font/RictyDiminished-Bold.ttf') format('truetype');
+}
+
 html body {
     height: 100%;                                   /* height max */
     width: 100%;                                    /* width max */
@@ -26,7 +31,7 @@ header nav ul li {
 
 header nav ul li a {
     border: 1px solid transparent;                  /**/
-    font-family:Verdana, Geneva, "sans-serif";      /**/
+    font-family: "RictyDiminishedBold",sans-serif;  /**/
     color: #AEFFFD;                                 /**/
     padding: 10px 15px;                             /**/
     transition: 1s;                                 /**/
@@ -71,6 +76,7 @@ header nav ul li a :hover {
     background-color: #27313D;
     background-size: cover;                         /* cover */
     background-position: center;                    /* center */
+    font-family: "RictyDiminishedBold",sans-serif
 }
 
 .aboutSec {
